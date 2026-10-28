@@ -22,7 +22,7 @@ Reemplaza el tablero de Miro con un sitio propio con panel admin, estados autom�
 
 - Node.js 18 o superior
 - npm
-- Acceso a la cuenta de Supabase de GMET — pedíselo a Zoe o Agus si no lo tenés
+- Acceso a la cuenta de Supabase de GMET — pedíselo a Agus si no lo tenés
 - Acceso al repositorio `gmetutnfrlp/cursos-gmet` en GitHub
 
 ---
@@ -86,7 +86,7 @@ Si por alguna razón necesitás recrear la base de datos desde cero, pedile el S
 El panel está en `/admin` y usa autenticación real con **Supabase Auth** (email + contraseña).
 
 1. Entrá a [http://localhost:3000/admin/login](http://localhost:3000/admin/login)
-2. Usá el email y contraseña de admin — pedíselos a Zoe o Agus
+2. Usá el email y contraseña de admin 
 3. Para crear un usuario nuevo: dashboard de Supabase → **Authentication → Users → Invite user**
 
 Desde el panel podés:
@@ -175,7 +175,7 @@ Después de levantar el proyecto en local, chequeá:
 
 ## Deploy (cuando corresponda)
 
-El deploy lo maneja Zoe o Agus. El proyecto está configurado para Vercel:
+El proyecto está configurado para Vercel:
 
 1. Importar el repo desde [vercel.com/new](https://vercel.com/new)
 2. Cargar las variables de entorno del paso 3
@@ -186,6 +186,5 @@ Si cambiás alguna variable de entorno, hay que redeploy: **Vercel → Deploymen
 ---
 
 ## Contacto
-
-Dudas sobre el proyecto: **Agus** (desarrollo) o **Zoe** (coordinación GMET).  
+ 
 Repo: [github.com/gmetutnfrlp/cursos-gmet](https://github.com/gmetutnfrlp/cursos-gmet)
